@@ -1,0 +1,1928 @@
+[
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/fullstack/saas-template.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation lacks detailed step-by-step instructions for deploying the template after setting it up, including specific commands and configurations needed for deployment."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no instructions on how to configure and connect to external services such as Stripe and Mailgun beyond checking the Secrets.toml file. Including examples or links to relevant resources would be beneficial."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide any information on how to test the application, including any built-in testing tools or frameworks that could be used."
+      },
+      {
+        "priority": "low",
+        "content": "There is no guidance on how to manage environment variables securely beyond setting secrets in Secrets.toml. More secure management practices or tools could be recommended."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/serverless-calendar-app.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide a clear explanation or prerequisites, such as the necessary environment setup or tools needed before starting the tutorial. This would help users in setting up their environment correctly before jumping into the content."
+      },
+      {
+        "priority": "high",
+        "content": "There is no step-by-step breakdown of what each part of the code does. While there are code snippets provided, a more detailed explanation of how the code works and its purpose would help readers understand the process better."
+      },
+      {
+        "priority": "high",
+        "content": "Include troubleshooting tips or common errors that might occur and their solutions, as users might face issues during setup or execution."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial lacks a clear conclusion or summary. Summarizing what was learned would reinforce the key concepts and provide closure to the tutorial."
+      },
+      {
+        "priority": "medium",
+        "content": "Examples of how to integrate or expand this calendar app into larger projects or with other tools/services could be useful."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/databases-with-rust.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial assumes prior knowledge of project initialization with Shuttle but does not provide steps for beginners on how to initialize a project."
+      },
+      {
+        "priority": "high",
+        "content": "It lacks a section on error handling strategies in Rust when working with databases, which is crucial for production-grade applications."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide a clear explanation of the differences between PostgreSQL, MySQL, and MariaDB, or when to use Shuttle's key-value store versus a SQL database, which may confuse users about the appropriate choice for their use case."
+      },
+      {
+        "priority": "high",
+        "content": "There is no guidance on how users can test their database interactions locally before deploying them using Shuttle services."
+      },
+      {
+        "priority": "urgent",
+        "content": "The tutorial skips detailing the process of setting up environment variables for database URLs and other configurations necessary for secure and dynamic database connections."
+      },
+      {
+        "priority": "high",
+        "content": "More comprehensive examples of querying and modifying data, including error handling, would benefit users new to both SQLx and Rust."
+      },
+      {
+        "priority": "medium",
+        "content": "No information is provided on how to handle migrations safely in collaborative environments or CI/CD pipelines."
+      },
+      {
+        "priority": "urgent",
+        "content": "The tutorial should mention handling secret management effectively when working with databases and persistent storage."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/websocket-chat-app-js.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The tutorial lacks explicit prerequisites, such as the developer's familiarity with React, Rust, and WebSocket concepts, as well as the necessity for having Node.js, npm, and cargo installed."
+      },
+      {
+        "priority": "medium",
+        "content": "Installation instructions for TailwindCSS are missing. The tutorial mentions using it but only provides a link; it could include a short section with the installation command directly in the tutorial."
+      },
+      {
+        "priority": "high",
+        "content": "There is no mention of error handling mechanisms throughout the tutorial, which can lead to confusion if users encounter errors at various stages."
+      },
+      {
+        "priority": "medium",
+        "content": "Details about testing the application, both frontend and backend, are absent. Users might need guidance on how to verify that their application is functioning correctly at different stages of development."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial does not specify which versions of npm, rust, and other tools are compatible, leading to potential compatibility issues."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial does not provide instructions for setting up the environment variables using the Secrets.toml file or what specific environmental variables need to be set."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks information on how to troubleshoot common issues that might arise during setup or execution of the app."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/custom-service.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide any troubleshooting guidance or common error resolutions, which would be helpful for users who encounter issues while following the steps."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on testing the finished service, which would help ensure the implementation is functioning as expected."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial assumes prior knowledge of Rust and related libraries without specifying this in the prerequisites, potentially confusing beginners."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/send-your-logs-to-datadog.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "There is no information on how to obtain a Datadog API key, which is essential for completing the setup."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks troubleshooting steps or common issues that might arise when setting up the integration with Datadog."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no prerequisites mentioned for this tutorial, such as required software versions or experience level required to follow along."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide information on how to verify end-to-end that logs are successfully being sent to Datadog beyond checking the Datadog interface."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/url-shortener.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks a clear overview or goal at the beginning describing what the tutorial will cover, which could confuse readers who skim the document quickly."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no explicit explanation of what Shuttle is and how it benefits the tutorial, assuming the reader is already familiar with it."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial doesn't list prerequisites, such as necessary software installations or programming language familiarity, which is crucial for beginners."
+      },
+      {
+        "priority": "medium",
+        "content": "No information is provided on how to install dependencies like `nanoid` or set up the environment for the tutorial."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing sections on debugging common issues that might arise during deployment or coding, which can help users troubleshoot more effectively."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no mention of the expected outcome or objectives after completing the tutorial, leaving users with no sense of accomplishment."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/discord-weather-forecast.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial does not mention prerequisites or assumptions about the reader's knowledge, such as familiarity with Rust, Discord bots, or Shuttle. Including prerequisites can help target the right audience."
+      },
+      {
+        "priority": "high",
+        "content": "There is no setup or installation guide for the Discord bot environment, such as setting up Rust or Serenity. Details on setting up the development environment would be helpful."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial lacks detailed instructions for debugging or troubleshooting common issues, such as deployment errors or incorrect API responses. Guidance on how to approach potential problems would improve the user experience."
+      },
+      {
+        "priority": "medium",
+        "content": "While the tutorial mentions obtaining an API key, it does not guide users on securely storing and managing these keys beyond setting them in Secrets.toml."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no links or references to additional resources or documentation for APIs used, such as the AccuWeather API. Including this information would be beneficial for users unfamiliar with these APIs."
+      },
+      {
+        "priority": "medium",
+        "content": "Some sections assume familiarity with prior steps or incomplete context about Discord features like permissions and guilds. More background information or links to Discord documentation could aid understanding."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/authentication.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The tutorial skips over error handling and doesn't provide guidance on implementing it, which may lead to insecure practices by inexperienced developers."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial assumes users have knowledge of HTML, web servers, databases, and Rust, but it doesn't specify the required level of understanding for each, which can lead to confusion for beginners."
+      },
+      {
+        "priority": "high",
+        "content": "There is no mention of testing the authentication system, which is critical to ensure its reliability and security."
+      },
+      {
+        "priority": "urgent",
+        "content": "The tutorial lacks a section on potential security pitfalls and best practices when implementing authentication, which is crucial for maintaining secure systems."
+      },
+      {
+        "priority": "high",
+        "content": "There is no guidance on how to handle user input validation effectively, beyond a basic client-side validation example."
+      },
+      {
+        "priority": "urgent",
+        "content": "The tutorial does not cover the proper use of environment variables for sensitive information like database credentials."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial mentions using Redis for session management but doesn't provide any implementation details or examples."
+      },
+      {
+        "priority": "urgent",
+        "content": "There are no detailed deployment instructions or troubleshooting tips for common deployment issues."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/templates/tutorials/rest-http-service-with-axum.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial is missing information on prerequisites or assumed knowledge. Including a section on what readers should already be familiar with before starting the tutorial would be helpful."
+      },
+      {
+        "priority": "medium",
+        "content": "More detailed installation instructions for setting up Shuttle and Axum should be provided within the tutorial, rather than just an external link."
+      },
+      {
+        "priority": "low",
+        "content": "There is no clear indication of how long this tutorial might take to complete or the difficulty level. Giving an estimate on both can help users plan their learning time better."
+      },
+      {
+        "priority": "medium",
+        "content": "Examples for some advanced topics, like middleware and CORS, are somewhat brief and could benefit from more in-depth explanations or additional contextual information on real-world applications."
+      },
+      {
+        "priority": "low",
+        "content": "There are no diagrams or visuals to aid understanding, especially for sections explaining routing and state management. Visuals could help in clarifying these concepts."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial lacks a conclusion or summary section to recap what has been learned. This can help reinforce the knowledge gained throughout the tutorial."
+      },
+      {
+        "priority": "high",
+        "content": "Testing section is mentioned in the introduction but is not covered in the main content. Adding a section on how to test the application would complete the learning experience."
+      },
+      {
+        "priority": "medium",
+        "content": "Introduce common errors or pitfalls one might encounter when setting up the service with Axum, and how to troubleshoot them."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/platform-update/migration.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The guide does not provide a clear, step-by-step overview at the beginning. Adding a summary with a list of steps can help users prepare and understand the migration process as a whole."
+      },
+      {
+        "priority": "high",
+        "content": "There is no troubleshooting section to help users who might encounter common errors during the migration process."
+      },
+      {
+        "priority": "high",
+        "content": "The document does not mention any potential downtime or service interruption that might occur during the migration process. This information is crucial for users to plan their migration."
+      },
+      {
+        "priority": "medium",
+        "content": "The specific details on how to handle dependency changes in Cargo.toml are minimal. More examples and explanations could be provided, especially for projects with complex dependencies."
+      },
+      {
+        "priority": "medium",
+        "content": "Instructions for verifying successful deployment are missing. Users would benefit from knowing how to check if their deployment on the new platform is correct."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/platform-update/platform-update.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Missing information on how existing users can migrate their projects from the old platform to the new one."
+      },
+      {
+        "priority": "high",
+        "content": "There is no information on the timeline for shutting down the old platform, leading to uncertainty for users about when they need to transition."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation references a full announcement link but doesn't summarize critical changes within this document for readers who may not follow the link."
+      },
+      {
+        "priority": "medium",
+        "content": "Deprecated CLI commands are mentioned but it's unclear if existing scripts using these commands will automatically migrate or require manual changes."
+      },
+      {
+        "priority": "low",
+        "content": "Lack of detail on the exact enhancements or differences in infrastructure mentioned in the introduction, such as specifics on VM-level isolation and scalability improvements."
+      },
+      {
+        "priority": "medium",
+        "content": "The removed features like Teams and MongoDB Shared Database lack guidance on alternatives or timelines for replacements."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/shuttle-qdrant.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide details on how to manage errors or exceptions that may arise when interacting with the Qdrant service."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no guidance on testing the integration in different environments such as staging or production, apart from local development."
+      },
+      {
+        "priority": "low",
+        "content": "Examples or instructions on how to handle updates or migrations to newer versions of Qdrant or `qdrant-client` are missing."
+      },
+      {
+        "priority": "medium",
+        "content": "Additional context on setting up necessary infrastructure or network configurations for Qdrant is absent."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation lacks any links to additional resources or community support channels for users needing further assistance."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/shuttle-opendal.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks detailed setup instructions for different storage services (e.g., S3, GCS)."
+      },
+      {
+        "priority": "medium",
+        "content": "No troubleshooting section for common connection issues or errors."
+      },
+      {
+        "priority": "high",
+        "content": "Does not provide any examples for different storage services other than S3 with Axum."
+      },
+      {
+        "priority": "high",
+        "content": "No explanation of where and how to obtain required secrets like `bucket`, `access_key_id`, and `secret_access_key`."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing information on supported versions for `shuttle-opendal`."
+      },
+      {
+        "priority": "low",
+        "content": "No links to community support or forums for additional help."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/shuttle-turso.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide detailed steps for creating a Turso database or generating an access token. Users are directed to the Turso website without further guidance."
+      },
+      {
+        "priority": "low",
+        "content": "No information is given regarding any potential limitations or constraints when using Turso databases with Shuttle."
+      },
+      {
+        "priority": "high",
+        "content": "The setup for reading the token from 'Secrets.dev.toml' is mentioned but not explained. Users might need guidance on how to properly configure 'Secrets.dev.toml'."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no troubleshooting tips or common issues listed that might occur while connecting Shuttle with Turso."
+      },
+      {
+        "priority": "medium",
+        "content": "Examples are limited to an Axum server, and there are no examples for other common frameworks, which could limit the utility for users not using Axum."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/shuttle-aws-rds.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation lacks detailed setup instructions for users unfamiliar with Shuttle or AWS RDS, such as prerequisites or step-by-step guides for initial setup."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing examples or references for configuring and using each database engine type (Postgres, MySQL, MariaDB) with a real-world application scenario."
+      },
+      {
+        "priority": "high",
+        "content": "No troubleshooting or common issues section is provided for users encountering setup or connection issues."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not mention version compatibility for the various components (Rust, AWS RDS, sqlx, etc.)."
+      },
+      {
+        "priority": "high",
+        "content": "Information about security best practices for database connections and credentials is not included."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/custom-resources.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The tutorial does not explain the prerequisites for users, such as the knowledge of Rust programming, the Axum framework, or the shuttle CLI installed."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no explanation regarding the setup process for the development environment, such as installing Rust and Axum."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation lacks a detailed explanation of how the custom resource integrates with Shuttle and its use cases."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial misses a section on troubleshooting common issues that may arise when creating or using custom resources."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no links to related resources or further documentation on using Shuttle and integrating custom resources."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/shuttle-openai.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide information on error handling for the OpenAI client, which is crucial for robust application development."
+      },
+      {
+        "priority": "high",
+        "content": "There are no details on how to test the integration with OpenAI in a local or staging environment, which would be important for developers before deploying to production."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no troubleshooting section to address potential issues that might arise when setting up the `shuttle-openai` integration."
+      },
+      {
+        "priority": "medium",
+        "content": "No mention of any required version of the Rust programming language or Cargo toolchain is provided, which might lead to compatibility issues."
+      },
+      {
+        "priority": "high",
+        "content": "It lacks information about potential costs associated with using the OpenAI API, which is important for developers to consider."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/integrations/ci-cd.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide a step-by-step guide or example of setting up the GitHub Action for Shuttle CI/CD. Users may need a detailed walkthrough to implement it first time."
+      },
+      {
+        "priority": "medium",
+        "content": "No information is provided on prerequisites or required permissions for using the GitHub Actions with Shuttle CI/CD."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing troubleshooting section for common issues or errors that might occur when using the GitHub Action with Shuttle."
+      },
+      {
+        "priority": "low",
+        "content": "There is no information on how to customize the deployment process beyond running 'shuttle deploy'."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/introduction/how-shuttle-works.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks detailed explanation on error handling during deployment. It would be helpful to include common errors and troubleshooting steps."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on prerequisites such as required tools or software installations before deploying with Shuttle."
+      },
+      {
+        "priority": "high",
+        "content": "The document doesn't provide details on how to configure and manage the environment for deployment, which could be crucial for some users."
+      },
+      {
+        "priority": "medium",
+        "content": "The 'More reading' section is incomplete and there's no indication of additional resources or documentation for further exploration."
+      },
+      {
+        "priority": "low",
+        "content": "There is no summary or conclusion section to recap the key steps and considerations for using Shuttle."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/introduction/what-is-shuttle.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation lacks a detailed explanation or example of how to deploy non-web applications, even though it mentions that any Rust program can be deployed."
+      },
+      {
+        "priority": "high",
+        "content": "There is no information on pricing or cost considerations for using Shuttle to deploy applications."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide troubleshooting steps or common issues developers might face when using Shuttle."
+      },
+      {
+        "priority": "high",
+        "content": "While the documentation mentions the provisioning of resources through macros, it lacks detailed examples or explanations of the available macros and their uses."
+      },
+      {
+        "priority": "medium",
+        "content": "No contact information or links for further support (beyond what's in the guide) is provided for developers needing help with Shuttle."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/introduction/docs.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "No code snippets or examples demonstrating basic usage of Shuttle to help first-time users understand context."
+      },
+      {
+        "priority": "medium",
+        "content": "Lacks information on prerequisites or system requirements for installation."
+      },
+      {
+        "priority": "medium",
+        "content": "No troubleshooting section for common installation or startup issues."
+      },
+      {
+        "priority": "low",
+        "content": "No clear call to action for feedback or documentation improvement suggestions from users."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/projects.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide detailed instructions or examples for setting up a Shuttle project from scratch, which would be useful for new users."
+      },
+      {
+        "priority": "medium",
+        "content": "There is a lack of information on how to manage resources and logs within a project, despite them being mentioned as part of a project's logical separations."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation mentions the use of a config file for linking projects, but it doesn't specify the format or content of this config file, which could be crucial for advanced configurations or troubleshooting."
+      },
+      {
+        "priority": "medium",
+        "content": "Information about managing multiple environments is described as a planned feature but lacks details on current best practices or alternatives available until the feature is implemented."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation does not include troubleshooting tips for common issues that might arise when creating or managing projects."
+      },
+      {
+        "priority": "medium",
+        "content": "No example is provided regarding how projects interact with other Shuttle platform components like services or other integrations, which could help users understand project capabilities better."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/deployment-environment.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not explain how to configure the compute settings once it becomes configurable, or how users can \"reach out\" if they need more compute initially. It's missing details on the mechanism for this communication."
+      },
+      {
+        "priority": "medium",
+        "content": "The section on custom domains has a placeholder link ('[custom domains]()'), which should be replaced with an actual URL or information."
+      },
+      {
+        "priority": "medium",
+        "content": "The reference to `[Shuttle Secrets](/resources/shuttle-secrets)` assumes prior knowledge or access to other documents. A brief summary of what shuttle secrets are or an explanation of where to find the relevant information would be helpful."
+      },
+      {
+        "priority": "medium",
+        "content": "The paragraph about `Check for SHUTTLE=true` does not explain what this check achieves or in what context it should be used."
+      },
+      {
+        "priority": "low",
+        "content": "The document lacks a clear structure for navigation, such as a table of contents or list of sections, which could enhance user experience and accessibility."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/domain-names.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide troubleshooting tips or common error resolutions when the domain setup process fails."
+      },
+      {
+        "priority": "medium",
+        "content": "No information is given on how long DNS propagation or SSL certificate activation might take."
+      },
+      {
+        "priority": "low",
+        "content": "Instructions for deleting an SSL certificate are present, but there is no explanation of the implications or scenarios for when you might need to do this."
+      },
+      {
+        "priority": "high",
+        "content": "There is no step on verifying that the DNS and SSL configurations are correctly set up once complete."
+      },
+      {
+        "priority": "medium",
+        "content": "There's a lack of examples or description on what to do if Cloudflare's CNAME flattening is not desirable."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/builds.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "Lack of detailed explanation or examples on handling common build issues, which can help users troubleshoot when the build process fails."
+      },
+      {
+        "priority": "low",
+        "content": "No information on how long builds generally take, which can help in planning and expectations."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing guidance on optimizing build times specifically within this environment, even though the use of Docker-layer caching is mentioned."
+      },
+      {
+        "priority": "high",
+        "content": "Absence of security best practices when customizing build scripts or using external dependencies."
+      },
+      {
+        "priority": "low",
+        "content": "No information about the process for updating the builder image or runtime image once it's been set up."
+      },
+      {
+        "priority": "medium",
+        "content": "Limited details on the implications or outcomes of using the \"shuttle\" feature flag and how it affects the build."
+      },
+      {
+        "priority": "high",
+        "content": "No mention of potential limitations or constraints of the build environment that could impact the user's code or dependencies."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/files.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The document does not provide detailed steps on how to configure the web framework for serving static files outside of providing a link to an example. Detailed instructions or a brief explanation should be included to make it self-contained."
+      },
+      {
+        "priority": "high",
+        "content": "Information regarding the behavior of files at runtime is minimal. Additional details on how to persist files or manage runtime-generated files in a Shuttle environment would be beneficial."
+      },
+      {
+        "priority": "high",
+        "content": "No troubleshooting section is provided. A section addressing common issues or errors during deployment, such as exceeding the archive size limit, would improve this document."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/local-run.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "Lacks a troubleshooting section for common issues apart from Docker not starting."
+      },
+      {
+        "priority": "high",
+        "content": "No information provided on how to verify if shuttle is installed correctly on the local system."
+      },
+      {
+        "priority": "high",
+        "content": "No prerequisite information or setup instructions for Docker and other dependencies."
+      },
+      {
+        "priority": "medium",
+        "content": "The document does not explain where to find further help or support if the user encounters issues not covered in the document."
+      },
+      {
+        "priority": "low",
+        "content": "There is no example for changing the default port other than `8000` when exposing the application to local network without the `--port` argument."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/project-configuration.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide examples or explanations about the available configuration options in `Shuttle.toml`. It only refers to another section, which might not be convenient for users looking for quick access to this information."
+      },
+      {
+        "priority": "high",
+        "content": "It lacks clear instructions or examples on how to handle multiple services within a workspace if needed. The current documentation only mentions supporting one Shuttle service per workspace."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no troubleshooting section for common issues that might arise when configuring projects with Shuttle. This would be helpful for users to solve recurring issues quickly."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not describe the implications of enabling or disabling default features in the Cargo feature flags section. It's important for users who may be unfamiliar with Cargo's feature flags."
+      },
+      {
+        "priority": "medium",
+        "content": "The document could benefit from a section explaining the specific purpose and usage of `.shuttle/config.toml`, including what configurations can be set there aside from its mention of being auto-generated and ignored by version control."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/migrating-rds-postgres.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks a prerequisite section detailing required tools, software versions, and permissions needed before starting the migration process."
+      },
+      {
+        "priority": "medium",
+        "content": "No troubleshooting section addressing common issues during the migration process, particularly with credential or network access issues when handling databases."
+      },
+      {
+        "priority": "urgent",
+        "content": "Does not include a section on rolling back changes if something goes wrong during the migration."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation does not link to external resources for more complex migration verification processes."
+      },
+      {
+        "priority": "medium",
+        "content": "No estimated time commitment for completing the migration process is provided, which would be helpful for planning."
+      },
+      {
+        "priority": "urgent",
+        "content": "There is no information on potential impacts or downtime during the migration process and how to mitigate it."
+      },
+      {
+        "priority": "medium",
+        "content": "Lacks context or explanation on why certain steps are necessary, such as why we ignore the shared database pool initially, or the significance of changing the owner during restoration."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/docs/logs.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation mentions about `--start-time`, `--end-time`, `--head`, `--tail`, and `--all` flags as TODOs, but does not provide any information about them. Providing information on these flags or clarifying whether they are available would be helpful."
+      },
+      {
+        "priority": "high",
+        "content": "There is a TODO comment for `--all-deployments` which is not explained. This needs documentation or clarification on availability."
+      },
+      {
+        "priority": "medium",
+        "content": "No examples or explanation provided for accessing logs in different environments (e.g., development, production), which might have different log access requirements."
+      },
+      {
+        "priority": "medium",
+        "content": "No information about handling log data privacy or security considerations, which could be important for user applications."
+      },
+      {
+        "priority": "low",
+        "content": "Instructions on setting up custom logging do not provide details on ensuring compatibility with Shuttle's requirements, such as specific formatting or handling of logs."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/support/support.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "No detailed guidelines on expected response times for support requests via Intercom, Discord, or Email."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on the availability of support, such as support hours for Intercom chat or email responses."
+      },
+      {
+        "priority": "low",
+        "content": "Lack of a structured FAQ or common issues section that could assist in immediate self-help without needing direct contact."
+      },
+      {
+        "priority": "high",
+        "content": "No mention of service level agreements (SLAs) for Pro Tier members in the Discord support channel."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/support/troubleshooting.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "No contact method is provided for users who cannot or do not wish to use Discord for support."
+      },
+      {
+        "priority": "low",
+        "content": "No version number of Shuttle is mentioned which might be relevant for troubleshooting specific issues."
+      },
+      {
+        "priority": "medium",
+        "content": "Some troubleshooting instructions, such as resolving dependency mismatches, may require more detailed step-by-step guidance or additional references for less experienced users."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on where to find log files or detailed error messages that could aid in debugging issues."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/support/faq.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The FAQ section does not include any contact or support information if users have questions that are not covered in the FAQ."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information about pricing or billing inquiries, which could be common user questions."
+      },
+      {
+        "priority": "high",
+        "content": "The FAQ does not mention anything about data privacy or compliance standards, which is crucial information for potential enterprise users."
+      },
+      {
+        "priority": "medium",
+        "content": "Instructions or links for troubleshooting common issues during deployment are missing, which could be helpful for users facing problems."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/getting-started/installation.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "No troubleshooting section to provide guidance if installation fails or if there are common issues during installation."
+      },
+      {
+        "priority": "low",
+        "content": "Lack of instructions or considerations for non-standard environments such as WSL (Windows Subsystem for Linux)."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on prerequisites or dependencies required before installation, especially when compiling from source."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation does not provide version compatibility information for various operating systems or platforms."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/getting-started/quick-start.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide information on troubleshooting common login issues, which could be helpful for users experiencing problems during authentication via the Shuttle Console."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on verifying the installation of Shuttle CLI, such as checking version or confirming successful installation before proceeding with login."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks a section on prerequisites, other than the assumption that Shuttle CLI is installed, such as software requirements or necessary user permissions."
+      },
+      {
+        "priority": "high",
+        "content": "There is no guidance on possible errors or issues that might occur during the project initialization process and how to resolve them."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/community/contribute.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks detailed instructions on how to start contributing, specifically what steps need to be taken initially for new contributors."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not mention any prerequisites or skills necessary for contributing to the Shuttle project repositories."
+      },
+      {
+        "priority": "high",
+        "content": "No information on the process for submitting a contribution or how PRs (Pull Requests) are reviewed and accepted."
+      },
+      {
+        "priority": "medium",
+        "content": "Misses guidelines on code style, commit messages, and other contribution best practices."
+      },
+      {
+        "priority": "high",
+        "content": "Does not provide information on how to find issues that are good for beginners or first-time contributors."
+      },
+      {
+        "priority": "medium",
+        "content": "No mention of legal considerations, such as contributor license agreement (CLA) if any."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/community/open-source.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks information on how to set up the development environment for contributions."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not specify contribution guidelines or code of conduct for contributors."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on how to report issues or where to ask for help."
+      },
+      {
+        "priority": "low",
+        "content": "Missing examples or links to previous successful contributions to inspire new contributors."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/community/get-involved.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The document lacks specific guidance or tips for contributing to the project, such as coding standards, contribution guidelines, or links to specific issues that need help."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on the benefits or incentives of getting involved is provided, which could motivate users."
+      },
+      {
+        "priority": "low",
+        "content": "There is no explanation or context given for the platforms mentioned (GitHub, Discord, Twitter), which may not be familiar to all users."
+      },
+      {
+        "priority": "low",
+        "content": "The icon associated with the contribution card is not explained or contextualized within the document."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/migrating-checklist.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation lacks an overview or introductory section that explains what 'Shuttle' is for those unfamiliar with it. This context is necessary for better understanding the migration process described."
+      },
+      {
+        "priority": "high",
+        "content": "There is no step-by-step migration guide or checklist provided, despite the document's title suggesting one. The title may cause confusion as it implies there will be a detailed procedural checklist."
+      },
+      {
+        "priority": "high",
+        "content": "Information about how to handle existing services that are not HTTP-based and the steps needed to migrate them to Shuttle, if possible, is missing."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation doesn't include troubleshooting tips or common issues users may face when migrating services to Shuttle."
+      },
+      {
+        "priority": "medium",
+        "content": "The document does not specify whether there are any limitations or restrictions on the supported services and resources, aside from HTTP traffic requirement. Users might need clarity on potential limitations."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/migrating-to-shuttle.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The guide lacks a section on troubleshooting common migration issues that users might encounter when migrating from Axum to Shuttle."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on verifying that the migration was successful, such as smoke tests or checking specific logs or outputs after deployment."
+      },
+      {
+        "priority": "low",
+        "content": "A FAQ section addressing common questions or concerns users might have during migration is not present."
+      },
+      {
+        "priority": "high",
+        "content": "The document does not mention version compatibility between Shuttle and Axum, which could potentially lead to issues if users are not aware of the required versions."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no detailed explanation or any reference link for users unfamiliar with `sqlx` migrations, assuming prior knowledge."
+      },
+      {
+        "priority": "low",
+        "content": "The guide assumes familiarity with creating an API router and server setup without providing links to resources for beginners."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/introduction.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not mention any prerequisite knowledge or requirements for the migration process, other than having the Shuttle CLI installed. It should specify if there are any other necessary tools, programming language knowledge, or prior configurations needed."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation briefly mentions 'integration crates' and 'macros' without providing additional information or links to further reading. This may be confusing for users unfamiliar with these concepts."
+      },
+      {
+        "priority": "high",
+        "content": "There is no troubleshooting section for common migration issues. Providing solutions to possible challenges users might face during the migration process would be beneficial."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation lacks a section detailing how to verify that the migration was successful and best practices for testing the newly migrated setup."
+      },
+      {
+        "priority": "low",
+        "content": "There is no link to in-depth documentation or examples for the specific frameworks mentioned, aside from the examples page. Direct links might improve usability."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/frameworks/custom-service.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation lacks detailed step-by-step guidance on how to migrate an existing service to Shuttle. It only provides code snippets without any contextual information on how to apply them in a real-world scenario."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no mention of any prerequisites or requirements needed before following the guide. For example, knowledge of Rust, understanding of async programming, or familiarity with Shuttle and its terminology."
+      },
+      {
+        "priority": "high",
+        "content": "The guide does not mention any potential pitfalls or common errors that developers might encounter when implementing the service or how to troubleshoot them."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not include any examples of what kind of services would benefit from using a custom service setup as described."
+      },
+      {
+        "priority": "high",
+        "content": "There is no information on how to deploy or manage the service once it is implemented. This might leave users with a functional service but no insight into next steps."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/frameworks/rocket.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation lacks a detailed explanation or step-by-step guide on how to perform the migration using the provided code snippets. New users might find it difficult to follow without specific instructions."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information about any potential pitfalls or common issues that might occur during the migration process, along with their solutions."
+      },
+      {
+        "priority": "medium",
+        "content": "The document does not provide any prerequisites or assumptions, such as expected knowledge or environment setup, which might be necessary for completing the migration."
+      },
+      {
+        "priority": "high",
+        "content": "There are no instructions on testing the migrated application to ensure it works correctly after migration."
+      },
+      {
+        "priority": "medium",
+        "content": "It is unclear whether additional configuration might be necessary for more advanced use cases beyond what is shown in the basic examples."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/frameworks/actix-web.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation lacks information on potential pitfalls or common errors when migrating Actix Web applications to Shuttle. Developers could benefit from a troubleshooting section."
+      },
+      {
+        "priority": "high",
+        "content": "There is no detailed explanation of how to configure Shuttle itself, beyond the integration with Actix Web. Some users might need guidance on Shuttle's specifics regarding deployment, scaling, and monitoring when using Actix Web."
+      },
+      {
+        "priority": "low",
+        "content": "Examples lack context on what 'hello_world' refers to in the provided code snippets. Users unfamiliar with the default setup might need clarification."
+      },
+      {
+        "priority": "medium",
+        "content": "Instructions for verifying a successful migration are missing. Users would benefit from a checklist or steps to test that their application is running correctly after migration."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/resources/secrets.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not explain the purpose of Shuttle or the context in which these instructions are applied. A brief introduction to Shuttle would be helpful for new users."
+      },
+      {
+        "priority": "high",
+        "content": "There is no explanation of prerequisites or necessary tools before following the migration steps. Some users may need guidance on what is required to start the process."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation assumes familiarity with Rust and the Shuttle framework without providing any resources or links for users who might not be familiar with them."
+      },
+      {
+        "priority": "high",
+        "content": "There is no troubleshooting section or FAQ for common issues encountered during the migration process."
+      },
+      {
+        "priority": "medium",
+        "content": "Lack of examples or explanations on how secrets can be secured or the best practices around managing secrets in a production environment."
+      },
+      {
+        "priority": "low",
+        "content": "The document lacks a clear conclusion or next steps after migrating the secrets, which might leave users uncertain of what to do next."
+      },
+      {
+        "priority": "medium",
+        "content": "The steps do not always clearly distinguish between local and deployed contexts, which could confuse users about where the various parts of code should execute."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/migrations/resources/postgres.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not include any prerequisite knowledge or skills needed to understand and utilize the information, such as familiarity with Rust, Docker, or specific libraries like Axum and SQLx."
+      },
+      {
+        "priority": "high",
+        "content": "There's no mention of any setup or installation guide for prerequisites, like Docker, needed for running a local Postgres container."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation does not provide troubleshooting tips or common issues users might encounter when migrating a web service using Postgres to Shuttle."
+      },
+      {
+        "priority": "medium",
+        "content": "Details on how to manually add relevant crates are missing. A step-by-step guide could be helpful for less experienced users."
+      },
+      {
+        "priority": "medium",
+        "content": "It lacks examples or a guide explaining how to use the additional feature flags noted (e.g., 'diesel-async', 'diesel-async-bb8')."
+      },
+      {
+        "priority": "high",
+        "content": "There's no step-by-step walkthrough explaining the code transformation from the 'before' snippet to the 'after' snippet, which can help users understand exactly what changes are needed."
+      },
+      {
+        "priority": "urgent",
+        "content": "There's no information on what to do if the default actions of the Shuttle runtime (such as spinning up a local Postgres container) fail."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/serenity-todo.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide information on how to set up and configure a local development environment for testing the bot before deployment, such as necessary software installations or configurations outside of the bot's code."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no guidance on handling common errors or troubleshooting steps when setting up or running the bot."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial lacks an explanation of the necessary permissions settings for the bot when creating it on the Discord developer portal, which could cause permission issues once the bot is deployed."
+      },
+      {
+        "priority": "high",
+        "content": "There is no mention of security best practices beyond not revealing the Discord token, such as regular token rotation or setting appropriate permissions for any connected database."
+      },
+      {
+        "priority": "low",
+        "content": "There is no discussion on potential scalability issues or how to handle an increased number of users or todos."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/axum-jwt-authentication.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The tutorial does not explain how to set up the `shuttle` CLI if it is not already installed."
+      },
+      {
+        "priority": "high",
+        "content": "There is no guidance on generating or securely storing a random JWT secret for production use, which is essential for security purposes."
+      },
+      {
+        "priority": "medium",
+        "content": "It lacks information about the expected environment for running the application, such as necessary software or specific configurations aside from the dependencies listed."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide any troubleshooting or common issues section for users who may encounter problems during the setup or execution process."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information about testing the JWT authentication process or how to validate its implementation beyond basic curl commands."
+      },
+      {
+        "priority": "high",
+        "content": "The tutorial does not mention best practices or security considerations when implementing JWT authentication in a real-world application."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/axum.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not explain how to install the `shuttle` CLI, which is necessary to follow the steps provided."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on required environment setup or prerequisites, such as Rust and Cargo installation, which could be important for beginners."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation does not provide troubleshooting information or FAQs for common issues that might arise during the deployment process."
+      },
+      {
+        "priority": "medium",
+        "content": "A link to the Axum official documentation is missing, which might be useful for users unfamiliar with Axum."
+      },
+      {
+        "priority": "low",
+        "content": "The document should specify which operating system(s) the instructions are applicable to or if there are any OS-specific instructions."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/rocket.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation lacks detailed installation instructions for the `shuttle` CLI. Users need to know how to set it up before cloning and deploying projects."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no explanation of Rocket's core concepts or components. A brief overview would help users understand the snippets better."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not include any troubleshooting section for common issues that may arise during the initialization or deployment of a Rocket project."
+      },
+      {
+        "priority": "low",
+        "content": "It would be beneficial to include links to external resources for learning more about Rocket or Rust for users who are new to these technologies."
+      },
+      {
+        "priority": "low",
+        "content": "There are references to code snippets of other frameworks (e.g., in `<Snippet file='other-frameworks.mdx'>`) without context or explanation in the current document. It might confuse readers focused only on Rocket."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/axum-websockets.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Missing instructions on how to install the required dependencies, such as Rust, Shuttle CLI, and Cargo, for running the provided code example. Users new to the environment or toolchain may find it challenging to set up the workspace without this information."
+      },
+      {
+        "priority": "medium",
+        "content": "No information about the prerequisites needed for understanding this tutorial, such as prior knowledge of Rust programming, Axum library, or WebSocket concepts."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks a section on troubleshooting common issues one might encounter when running the code, such as connection errors or missing dependencies."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial does not provide a link or reference to additional resources for further learning about Axum or Shuttle, leaving the user without guidance if they want to delve deeper into these topics."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no explanation of how the provided code works and interacts with Axum and WebSockets, which would help users understand the workflow and logic behind the example."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/other.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The document does not provide any information regarding the setup of a development environment, such as prerequisites or installations needed before initializing a Shuttle project."
+      },
+      {
+        "priority": "medium",
+        "content": "Examples are not accompanied by explanations. Users may benefit from a line-by-line explanation of what the example code does, especially if they are unfamiliar with the framework being used."
+      },
+      {
+        "priority": "high",
+        "content": "The document assumes familiarity with Shuttle commands like 'shuttle init', 'shuttle run', and 'shuttle deploy' without providing any explanation or links to further documentation on these commands."
+      },
+      {
+        "priority": "medium",
+        "content": "Error handling and debugging tips are missing from the documentation, which could help users troubleshoot common issues when deploying their applications."
+      },
+      {
+        "priority": "low",
+        "content": "There are no links or references to further resources or official documentation for the frameworks being used, which may be helpful for users looking for deeper learning."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/actix-websocket-actorless.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks a prerequisites section to list required knowledge or tools like Rust, Cargo, and the Actix Web framework, which would help users prepare."
+      },
+      {
+        "priority": "high",
+        "content": "There is no detailed explanation of how the code works, which could be essential for beginners to understand the steps beyond just running the code. The tutorial jumps directly from setup to running the server without going through the actual implementation in the code."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing a section on troubleshooting common issues one could encounter when setting up or running this WebSocket example, which would aid in user self-service."
+      },
+      {
+        "priority": "medium",
+        "content": "There are no examples or instructions on how to deploy this setup to a live environment, which could be crucial for users looking to move past local development."
+      },
+      {
+        "priority": "high",
+        "content": "No security considerations or warnings about running the WebSocket server in production are provided, which are important to ensure proper security practices are followed."
+      },
+      {
+        "priority": "low",
+        "content": "While there is a mention of checking network status through browser dev tools, it might be helpful to include specific steps or screenshots to guide the user on what exactly to look for."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/rocket-jwt-authentication.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "There is no information on error handling for common problems that might occur during JWT processing, such as token tampering or malformed tokens."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation doesn't mention how to handle scenarios where the secret key might change and how previously issued tokens should be treated in such case."
+      },
+      {
+        "priority": "medium",
+        "content": "There's no guidance on using asymmetric key encryption even though the jsonwebtoken library supports it, which might be important for some users."
+      },
+      {
+        "priority": "high",
+        "content": "No information on deploying the application beyond running it locally using the 'shuttle run' command. There should be instructions or a mention of how to move from local development to production deployment."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation mentions a '/refresh' endpoint but doesn't provide any guidance or example code on how to implement it."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/axum-static-files.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Misleading reference to Actix Web in the description section instead of Axum, causing confusion about the framework being discussed."
+      },
+      {
+        "priority": "medium",
+        "content": "Lacks detailed explanation about Shuttle's role and how it integrates with the Axum example, which can confuse users unfamiliar with Shuttle."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not provide any troubleshooting tips or common issues that developers might face while setting up static files with Axum and Shuttle."
+      },
+      {
+        "priority": "high",
+        "content": "No explanation or documentation about the `Shuttle.toml` file structure and why `assets` need to be declared there, potentially leaving gaps in understanding for new users."
+      }
+    ]
+  },
+  {
+    "data_type": "example",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/poise.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "There is no explanation or instructional steps for setting up the development environment required to run the Rust code. Users unfamiliar with Rust or the required dependencies might struggle."
+      },
+      {
+        "priority": "high",
+        "content": "There is a lack of detail regarding where or how to find the `Secrets.toml` file, and how to set it up properly with the Discord token."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide any troubleshooting steps or common errors that users might encounter while setting up or running the bot."
+      },
+      {
+        "priority": "low",
+        "content": "No information is given about where the Shuttle or Serenity repositories can be accessed or any relevant community or support forums."
+      },
+      {
+        "priority": "medium",
+        "content": "The document does not mention any prerequisites check or verification step to ensure the user has met all the necessary requirements before proceeding with the setup."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/rocket-static-files.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not specify the expected directory structure for placing the assets. It would help to have a brief note on where the 'assets' directory should be placed relative to the project root."
+      },
+      {
+        "priority": "medium",
+        "content": "Information on troubleshooting steps if the static files do not load correctly is missing. Adding a small troubleshooting section could be helpful."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no explanation of the purpose of each file, like `Shuttle.toml` and `Cargo.toml`, which might be unfamiliar to new users."
+      },
+      {
+        "priority": "high",
+        "content": "Prerequisites such as having Rust and Shuttle CLI installed are mentioned, but no links or guidance on how to install them are provided. Including this information or links to official documentation could be useful."
+      },
+      {
+        "priority": "medium",
+        "content": "It could be beneficial to include a brief overview of what Rocket is and why it is used for this task to help users who may not be familiar with the technology."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/examples.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Document is missing detailed examples or content, particularly for supported frameworks."
+      },
+      {
+        "priority": "medium",
+        "content": "Document currently only contains a link to an external examples repository, lacking any in-doc explanations or examples."
+      },
+      {
+        "priority": "high",
+        "content": "No instructions or guides provided in the document itself for beginners to follow."
+      },
+      {
+        "priority": "medium",
+        "content": "Missing context or introduction for users unfamiliar with the documentation or purpose of the examples."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/actix-static-files.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks prerequisites section, users might not know they need Rust and Cargo installed before using the example."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not mention the minimum required version of the Rust compiler, which might lead to compatibility issues."
+      },
+      {
+        "priority": "medium",
+        "content": "No troubleshooting section for common issues that might arise when setting up static files with Actix Web, such as file path errors or missing files."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not include explanation or links on how to install the shuttle CLI for users unfamiliar with it."
+      },
+      {
+        "priority": "medium",
+        "content": "No guidance on how to deploy the project after testing it locally, which could be valuable for complete workflow understanding."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/actix-postgres.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The tutorial lacks a prerequisites section to inform users about necessary software installations and environment setup before starting."
+      },
+      {
+        "priority": "high",
+        "content": "It does not provide guidance on PostgreSQL setup, such as creating a user or database, which is critical for newcomers."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on error handling or debugging tips if things go wrong, which could be very useful for beginners working with databases and web servers."
+      },
+      {
+        "priority": "high",
+        "content": "Instructions on verifying if the PostgreSQL database connection is successful are missing, which is important for troubleshooting connection issues."
+      },
+      {
+        "priority": "low",
+        "content": "The tutorial is missing detailed explanations for why certain tools or dependencies are used, which may confuse users unfamiliar with them."
+      },
+      {
+        "priority": "medium",
+        "content": "Further details on deploying this app, besides running it locally, are not provided which limits the understanding of its full potential in a production environment."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/rocket-postgres.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks detailed setup instructions for the required environment such as installation of Rust, Rocket, and Postgres. For beginners, explicit instructions on setting up these dependencies would be helpful."
+      },
+      {
+        "priority": "medium",
+        "content": "The document does not mention which versions of Rust, Rocket, or SQLx the code is compatible with. Providing compatibility information can help avoid potential version conflicts."
+      },
+      {
+        "priority": "medium",
+        "content": "No guidance on handling errors beyond converting database errors to HTTP 400 responses. Including a section on error management and logging would strengthen the documentation."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation doesn't explain how to test the application beyond sending HTTP requests using cURL. Including a simple approach for unit testing the application could benefit developers."
+      },
+      {
+        "priority": "high",
+        "content": "Assumes prior knowledge of 'shuttle' without providing a link or explanation. Introducing the tool and linking to its documentation would help users unfamiliar with it."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/actix.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide prerequisites explicitly, such as having Rust and Cargo installed, which are essential for running Actix and shuttle CLI."
+      },
+      {
+        "priority": "medium",
+        "content": "The documentation lacks detailed explanations of what each step does, particularly for beginners who may not be familiar with Actix Web or Shuttle."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no mention of potential errors or troubleshooting steps if the provided commands fail. Including common errors and solutions would be helpful for users."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation references a 'Tutorials' section but does not elaborate on how this example relates to the broader tutorial content, which may cause confusion for users looking for more comprehensive learning paths."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/serenity.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not mention system requirements or versions for the software and tools used, such as Rust, Serenity, or Shuttle, that could affect the implementation."
+      },
+      {
+        "priority": "medium",
+        "content": "Details on error handling (other than logging) or troubleshooting potential issues when running the bot are missing."
+      },
+      {
+        "priority": "low",
+        "content": "There is no explanation for how to customize the bot beyond the provided example, which could be useful for users looking to develop a more complex bot."
+      },
+      {
+        "priority": "medium",
+        "content": "Security best practices like regularly rotating the Discord token or proper permissions setup are not covered."
+      },
+      {
+        "priority": "low",
+        "content": "There is a lack of interactive or visual elements that could make the setup instructions easier to follow, such as diagrams or step-by-step screenshots of the Discord developer portal process."
+      }
+    ]
+  },
+  {
+    "data_type": "tutorial",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/axum-postgres.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The tutorial lacks a step-by-step installation guide for prerequisites like the `shuttle` CLI, Rust language, and Cargo if they are needed."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial does not provide detailed error handling instructions or troubleshooting tips for common issues that may arise when setting up or running the application."
+      },
+      {
+        "priority": "high",
+        "content": "There's no explanation of the database schema or table structure expected by the application. Including SQL table schema creation details would help users set up their database correctly."
+      },
+      {
+        "priority": "medium",
+        "content": "The tutorial should include detailed instructions on testing the application, possibly with expected outputs for the provided curl commands to ensure users can verify correct functionality."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on how to deploy the application beyond the local environment setup. Adding deployment steps would be beneficial."
+      }
+    ]
+  },
+  {
+    "data_type": "example",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/examples/actix-cookie-authentication.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation lacks details on how to verify that the cookie-based authentication setup is working as intended. It should include steps or methods for testing and validation."
+      },
+      {
+        "priority": "high",
+        "content": "There is no information on potential errors or debugging tips if the setup does not work as expected. This could be crucial for troubleshooting issues during implementation."
+      },
+      {
+        "priority": "high",
+        "content": "The example does not cover security best practices such as setting the `cookie_secure` option to true in production or handling token expiration securely."
+      },
+      {
+        "priority": "medium",
+        "content": "There is a missing explanation of the core concepts of actix-identity and actix-session, which might be helpful for users not familiar with these crates."
+      },
+      {
+        "priority": "medium",
+        "content": "Additional guidance on deploying this setup in a production environment, including environment-specific configurations, is missing."
+      },
+      {
+        "priority": "low",
+        "content": "Information on scalability and how this setup performs under load or in a distributed environment is missing, which is important for real-world applications."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/guides/cli.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation lacks examples of expected outputs for each command, which can help users verify the results of commands."
+      },
+      {
+        "priority": "high",
+        "content": "There is no section on common troubleshooting steps or error messages users might encounter while using the CLI, which could assist users in resolving issues more quickly."
+      },
+      {
+        "priority": "medium",
+        "content": "More detailed explanation or links to related topics could be provided for managing resources, particularly for users unfamiliar with the context."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation does not clearly specify supported operating systems or environments for running the CLI commands."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/guides/upgrade.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "The documentation does not provide a detailed explanation of what each upgrade command does, particularly differences between them. Users might need guidance on which command to use based on their system or needs."
+      },
+      {
+        "priority": "high",
+        "content": "There is no mention of potential errors or troubleshooting steps if something goes wrong during the upgrade process."
+      },
+      {
+        "priority": "high",
+        "content": "The documentation doesn't specify if there are any prerequisites or necessary permissions for running these upgrade commands."
+      },
+      {
+        "priority": "medium",
+        "content": "The guide does not explain how to verify the current version of Shuttle CLI before upgrading, which could be relevant for determining the need for an upgrade."
+      },
+      {
+        "priority": "medium",
+        "content": "There's no detailed explanation of what changes, if any, are needed in the project's code or configuration files after upgrading the dependencies in Cargo.toml."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/guides/migrate-shared-postgres.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "Missing detailed steps on how to verify the database and application after migration, such as what specific checks to perform or common issues to look for."
+      },
+      {
+        "priority": "high",
+        "content": "No information provided on rollback procedures in case the migration fails, such as specific steps to restore the original state or other contingency plans."
+      },
+      {
+        "priority": "medium",
+        "content": "Does not specify how to handle authentication details during migration, which could lead to errors if not correctly managed."
+      },
+      {
+        "priority": "medium",
+        "content": "Lacks guidance on managing data consistency and integrity throughout the migration process."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/resources/shuttle-secrets.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "The documentation does not provide information on how secrets are managed after being deployed, such as whether they are encrypted, where they are stored, and who has access to them."
+      },
+      {
+        "priority": "medium",
+        "content": "There is no information on best practices for managing secrets with Shuttle, such as rotating secrets regularly or using a centralized management system."
+      },
+      {
+        "priority": "medium",
+        "content": "Examples of common pitfalls or mistakes when dealing with secrets in Shuttle, and how to avoid them, are missing."
+      },
+      {
+        "priority": "low",
+        "content": "The documentation does not specify the full syntax and all possible options for the secrets in the TOML files, such as whether it supports multiline values or different data types."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/resources/shuttle-shared-db.mdx",
+    "issues": [
+      {
+        "priority": "medium",
+        "content": "Documentation does not include details on database limitations or quotas. This could help users understand any constraints they might face when using this shared database service."
+      },
+      {
+        "priority": "high",
+        "content": "There are no troubleshooting sections or common error scenarios with solutions which is important for developers to resolve their issues quickly."
+      },
+      {
+        "priority": "medium",
+        "content": "In-depth examples or use cases are lacking, especially for different configurations and feature flags. More comprehensive examples would be helpful for understanding the full potential of the service."
+      },
+      {
+        "priority": "high",
+        "content": "Security considerations are missing, such as how data and connections are secured or what security features are supported."
+      },
+      {
+        "priority": "medium",
+        "content": "Document lacks a clear step-by-step guide for beginners who might not be familiar with Shuttle or shared databases. Having a quick start guide would be useful."
+      }
+    ]
+  },
+  {
+    "data_type": "how-to",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/resources/shuttle-metadata.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Lacks detailed explanation on what the `shuttle_runtime::ShuttleMetadata` attribute does and how it integrates with the main function."
+      },
+      {
+        "priority": "medium",
+        "content": "No description of the `DeploymentMetadata` struct and its fields, which would help users understand the output better."
+      },
+      {
+        "priority": "high",
+        "content": "Missing information on how to set up the environment so that the metadata plugin can be used effectively."
+      },
+      {
+        "priority": "medium",
+        "content": "The section on the plugin rework is missing, providing no context or timeline on when it will be available again."
+      }
+    ]
+  },
+  {
+    "data_type": "reference",
+    "filepath": "/tmp/.tmpVCZVnl/shuttle-hq-shuttle-docs-23f4979/resources/resources.mdx",
+    "issues": [
+      {
+        "priority": "high",
+        "content": "Missing explanation on how to apply the correct annotations in the code for the different resources."
+      },
+      {
+        "priority": "medium",
+        "content": "Lacks step-by-step guidance or examples on setting up a Shared Database or using the AWS RDS plugin."
+      },
+      {
+        "priority": "medium",
+        "content": "No information on the scope of supported resources, whether there are limitations or specific configurations needed."
+      },
+      {
+        "priority": "low",
+        "content": "The 'Integrations' section lacks direct links or explanations of example integrations to provide clarity to users."
+      },
+      {
+        "priority": "medium",
+        "content": "The command section does not explain what each command does in detail or what kind of output to expect."
+      }
+    ]
+  }
+]
